@@ -5,9 +5,9 @@ public class Anamenu {
 
 
         CalisanListesiDepo.anamenu();
-        Usta.ustaEkle();
-        Tekniker.teknikerEkle();
-        OfisElemani.ofisElemaniEkle();
+        Usta.ustaMenu();
+        Tekniker.teknikerMenu();
+        OfisElemani.ofisElemanMenu();
         TeknikKadro.teknikKadroEkle();
 
 

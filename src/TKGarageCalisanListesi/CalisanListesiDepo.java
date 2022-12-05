@@ -25,22 +25,19 @@ public class CalisanListesiDepo {
         switch (tercih){
 
             case "1" : // Usta Listesi
-                Usta.ustaEkle();
+                Usta.ustaMenu();
                 break;
 
             case "2" : // Tekniker Listesi
-                Tekniker.teknikerEkle();
+                Tekniker.teknikerMenu();
                 break;
 
             case "3" : // Ofis eleman listesi
-                OfisElemani.ofisElemaniEkle();
+                OfisElemani.ofisElemanMenu();
                 break;
 
             case "4" : // Teknik eleman listesi
                 TeknikKadro.teknikKadroEkle();
-                break;
-
-            case "5" : // Yeni eleman ekleme
                 break;
 
             case "q" :

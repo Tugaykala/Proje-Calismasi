@@ -21,7 +21,6 @@ public class TeknikKadro {
 
 
         Set<Map.Entry<String, String>> teknikKadroSeti = teknikKadroMap.entrySet();
-        String tercih = "";
 
         System.out.println("********************** TK GARAGE **********************\n" +
                 "***************** Teknik Kadro Listesi *****************\n" +
