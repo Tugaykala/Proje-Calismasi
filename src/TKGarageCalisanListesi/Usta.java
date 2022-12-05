@@ -14,12 +14,12 @@ public class Usta {
     public static void ustaEkle() throws InterruptedException {
         String tercih ="";
 
-            ustalarMap.put("301", "Mahmut,   Kaya,    45, Motor Ustasi");
-            ustalarMap.put("302", "Hasan,    Can,     40, Kaporta Ustasi");
-            ustalarMap.put("303", "Alper,    Kul,     38, Mekanik Ustasi");
-            ustalarMap.put("304", "Ali,      Buyuk,   50, Bas Usta");
-            ustalarMap.put("305", "Mustafa,  Cengiz,  42, Motor Ustasi");
-            ustalarMap.put("306", "Faruk,   Kahyalar, 47, Elektrik Ustasi");
+            ustalarMap.put("301", "Mahmut,   Kaya,     45, Motor Ustasi");
+            ustalarMap.put("302", "Hasan,    Can,      40, Kaporta Ustasi");
+            ustalarMap.put("303", "Alper,    Kul,      38, Mekanik Ustasi");
+            ustalarMap.put("304", "Ali,      Buyuk,    50, Bas Usta");
+            ustalarMap.put("305", "Mustafa,  Cengiz,   42, Motor Ustasi");
+            ustalarMap.put("306", "Faruk,    Kahyalar, 47, Elektrik Ustasi");
 
             Set<Map.Entry<String, String>> ustalarSeti = ustalarMap.entrySet();
             System.out.println("********************** TK GARAGE **********************\n" +
