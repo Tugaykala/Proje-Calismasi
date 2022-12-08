@@ -17,7 +17,6 @@ public class CalisanListesiDepo {
                 "\t   2- Tekniker Listesi \n" +
                 "\t   3- Ofis Elaman Listesi \n" +
                 "\t   4- Teknik Eleman Listesi \n" +
-                "\t   5- Yeni Eleman Ekleme \n" +
                 "\t   Q- ÇIKIŞ\n");
         System.out.println("Lutfen Menuden tercihinizi yapiniz");
         tercih = scan.nextLine();
@@ -37,7 +36,7 @@ public class CalisanListesiDepo {
                 break;
 
             case "4" : // Teknik eleman listesi
-                TeknikKadro.teknikKadroEkle();
+                TeknikKadro.teknikKadroMenu();
                 break;
 
             case "q" :

@@ -14,12 +14,12 @@ public class Usta {
     public static void ustaListe() throws InterruptedException {
 
 
-        ustalarMap.put("301", "Mahmut,   Kaya,     45, Motor Ustasi");
-        ustalarMap.put("302", "Hasan,    Can,      40, Kaporta Ustasi");
-        ustalarMap.put("303", "Alper,    Kul,      38, Mekanik Ustasi");
-        ustalarMap.put("304", "Ali,      Buyuk,    50, Bas Usta");
-        ustalarMap.put("305", "Mustafa,  Cengiz,   42, Motor Ustasi");
-        ustalarMap.put("306", "Faruk,    Kahyalar, 47, Elektrik Ustasi");
+        ustalarMap.put("301", "Mahmut, Kaya, 45, Motor Ustasi");
+        ustalarMap.put("302", "Hasan, Can, 40, Kaporta Ustasi");
+        ustalarMap.put("303", "Alper, Kul, 38, Mekanik Ustasi");
+        ustalarMap.put("304", "Ali, Buyuk, 50, Bas Usta");
+        ustalarMap.put("305", "Mustafa, Cengiz, 42, Motor Ustasi");
+        ustalarMap.put("306", "Faruk, Kahyalar, 47, Elektrik Ustasi");
 
 
         Set<Map.Entry<String, String>> ustaListesiSeti = ustalarMap.entrySet();
@@ -35,7 +35,7 @@ public class Usta {
             String eachValue = each.getValue();
             String[] eachValueArr = eachValue.split(", ");
 
-            System.out.printf("%3s                  %-9s  %-8s      %2s        %s \n" ,
+            System.out.printf("%3s              %-9s   %-8s      %2s        %s \n" ,
                     eachKey, eachValueArr[0],eachValueArr[1],
                     eachValueArr[2],eachValueArr[3]);
 
@@ -64,6 +64,7 @@ public class Usta {
 
     }
     public static void ustaMenu ()throws InterruptedException{
+
         String tercih = "";
         do {
             Set<Map.Entry<String, String>> ustalarSeti = ustalarMap.entrySet();
